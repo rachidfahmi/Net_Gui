@@ -112,7 +112,7 @@ class App(tk.Tk):
         }
         
         try:
-            print('Starting SSH to Device: ' + res['ip'])
+            print('Starting SSH to Device:  ' + res['ip'])
             net_connect = ConnectHandler(**res)
             net_connect.enable()
             if self.check_1.get()==1:
