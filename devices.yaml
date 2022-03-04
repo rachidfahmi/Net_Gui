@@ -1,0 +1,29 @@
+R1:
+  device_type: cisco_ios
+  ip: 192.168.0.51
+  username: rachid  
+  password: cisco
+
+R2:
+  device_type: cisco_ios
+  ip: 192.168.20.1
+  username: admin  
+  password: admin
+
+R3:
+  device_type: cisco_ios
+  ip: 192.168.0.53
+  username: rachid  
+  password: cisco
+  
+R4:
+  device_type: cisco_ios
+  ip: 192.168.0.54
+  username: rachid  
+  password: 
+
+ubuntu:
+  device_type: linux
+  ip: 192.168.35.4
+  username: gns3
+  password: gns3
